@@ -1,1 +1,808 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>الكينج | مستر محمود العدوي</title>
+
+    <meta
+        name="description"
+        content="منصة الكينج التعليمية مع مستر محمود العدوي لتعليم الرياضيات"
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"
+    ></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background-effects">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="glow glow-three"></div>
+        <div class="grid-background"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="container header-inner">
+
+            <a
+                href="#home"
+                class="logo"
+                onclick="goHome(); return false;"
+            >
+                <img
+                    src="logo.png"
+                    alt="الكينج - مستر محمود العدوي"
+                    class="logo-image"
+                >
+            </a>
+
+            <nav class="nav">
+
+                <a
+                    href="#home"
+                    onclick="goHome(); return false;"
+                >
+                    الرئيسية
+                </a>
+
+                <a
+                    href="#grades"
+                    onclick="goHome(); setTimeout(scrollToGrades,100)"
+                >
+                    الصفوف
+                </a>
+
+                <a
+                    href="#about"
+                    onclick="goHome(); setTimeout(scrollToAbout,100)"
+                >
+                    عن الكينج
+                </a>
+
+                <a
+                    href="#contact"
+                    onclick="goHome(); setTimeout(scrollToContact,100)"
+                >
+                    تواصل معنا
+                </a>
+
+            </nav>
+
+            <a
+                class="youtube-header"
+                href="https://www.youtube.com/@mrmahmoudahmed-h8m"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                ▶ يوتيوب
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- HOME -->
+    <main id="home">
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="king-badge">
+                        <span>👑</span>
+                        منصة الكينج التعليمية
+                    </div>
+
+                    <h1>
+                        الرياضيات
+                        <span>ببساطة</span>
+                    </h1>
+
+                    <h2>
+                        مع مستر محمود العدوي
+                    </h2>
+
+                    <p>
+                        شرح قوي، تدريبات مستمرة، ومراجعات تساعدك
+                        تفهم الرياضيات وتوصل لأفضل مستوى.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <button
+                            class="btn btn-gold"
+                            onclick="scrollToGrades()"
+                        >
+                            ابدأ التعلم 🚀
+                        </button>
+
+                        <a
+                            class="btn btn-outline"
+                            href="https://www.youtube.com/@mrmahmoudahmed-h8m"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            شاهد الشروحات ▶
+                        </a>
+
+                    </div>
+
+                    <div class="hero-stats">
+
+                        <div>
+                            <strong>6</strong>
+                            <span>صفوف دراسية</span>
+                        </div>
+
+                        <div>
+                            <strong>∞</strong>
+                            <span>شرح وتدريب</span>
+                        </div>
+
+                        <div>
+                            <strong>100%</strong>
+                            <span>اهتمام بالطالب</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HERO LOGO -->
+                <div class="hero-card-wrapper">
+
+                    <div class="hero-card">
+
+                        <div class="hero-card-glow"></div>
+
+                        <img
+                            src="logo.png"
+                            alt="شعار الكينج - مستر محمود العدوي"
+                            class="hero-logo-image"
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+        <section class="features-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>لماذا الكينج؟</span>
+
+                    <h2>
+                        تعلم بشكل مختلف 🔥
+                    </h2>
+
+                    <p>
+                        كل اللي تحتاجه علشان تطور مستواك في الرياضيات.
+                    </p>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+
+                        <h3>
+                            شرح واضح
+                        </h3>
+
+                        <p>
+                            شرح مبسط ومنظم يخليك تفهم الفكرة قبل ما تحفظها.
+                        </p>
+                    </div>
+
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🧠</div>
+
+                        <h3>
+                            تدريب مستمر
+                        </h3>
+
+                        <p>
+                            تدريبات تساعدك تثبت المعلومة وتتعامل مع الأسئلة المختلفة.
+                        </p>
+                    </div>
+
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+
+                        <h3>
+                            مستوى أقوى
+                        </h3>
+
+                        <p>
+                            تابع تقدمك وطور مستواك خطوة بخطوة.
+                        </p>
+                    </div>
+
+
+                    <div class="feature-card">
+                        <div class="feature-icon">▶</div>
+
+                        <h3>
+                            فيديوهات تعليمية
+                        </h3>
+
+                        <p>
+                            كل درس مرتب ومتاح بسهولة على قناة الكينج.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GRADES -->
+        <section
+            class="grades-section"
+            id="grades"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        المراحل الدراسية
+                    </span>
+
+                    <h2>
+                        اختار صفك 👑
+                    </h2>
+
+                    <p>
+                        ابدأ رحلة التعلم واختار الصف الدراسي الخاص بك.
+                    </p>
+
+                </div>
+
+                <div
+                    class="grades-grid"
+                    id="gradesGrid"
+                ></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LOCATION -->
+        <section class="location-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        الحضور والمواعيد
+                    </span>
+
+                    <h2>
+                        مستنيك في سنتر جراند 👑
+                    </h2>
+
+                    <p>
+                        لو عايز تحضر مع الكينج، دي معلومات المكان والمواعيد الحالية.
+                    </p>
+
+                </div>
+
+
+                <div class="location-grid">
+
+                    <div class="location-card">
+
+                        <div class="location-icon">
+                            📍
+                        </div>
+
+                        <div class="location-info">
+
+                            <span class="card-label">
+                                مكان الحضور
+                            </span>
+
+                            <h3>
+                                سنتر جراند
+                            </h3>
+
+                            <p>
+                                مكان شرح ومتابعة طلاب الكينج.
+                            </p>
+
+                            <a
+                                href="https://www.google.com/maps/place/%D8%B3%D9%86%D8%AA%D8%B1+%D8%AC%D8%B1%D8%A7%D9%86%D8%AF+%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%89%E2%80%AD/@30.0868345,31.1835016,726m/data=!3m2!1e3!4b1!4m6!3m5!1s0x1458412ffbb83d5d:0x83b8e897e9bf6556!8m2!3d30.0868299!4d31.1809267!16s%2Fg%2F11jsqckc9s!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="map-button"
+                            >
+                                📍 فتح الموقع على الخريطة
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="schedule-card">
+
+                        <div class="schedule-top">
+
+                            <div class="location-icon">
+                                🕐
+                            </div>
+
+                            <div>
+
+                                <span class="card-label">
+                                    المواعيد
+                                </span>
+
+                                <h3>
+                                    مواعيد الحصص
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="schedule-list">
+
+                            <div class="schedule-item">
+
+                                <div class="day">
+
+                                    <span>
+                                        الاثنين
+                                    </span>
+
+                                    <small>
+                                        أولى ثانوي
+                                    </small>
+
+                                </div>
+
+                                <strong>
+                                    4:00 م
+                                </strong>
+
+                            </div>
+
+
+                            <div class="schedule-item">
+
+                                <div class="day">
+
+                                    <span>
+                                        السبت
+                                    </span>
+
+                                    <small>
+                                        تانية إعدادي
+                                    </small>
+
+                                </div>
+
+                                <strong>
+                                    4:00 م
+                                </strong>
+
+                            </div>
+
+
+                            <div class="schedule-item coming">
+
+                                <div class="day">
+
+                                    <span>
+                                        باقي الصفوف
+                                    </span>
+
+                                    <small>
+                                        سيتم الإعلان عن المواعيد
+                                    </small>
+
+                                </div>
+
+                                <strong>
+                                    قريبًا
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section
+            class="about-section"
+            id="about"
+        >
+
+            <div class="container about-grid">
+
+                <div class="about-card-main">
+
+                    <div class="about-crown">
+                        👑
+                    </div>
+
+                    <div>
+
+                        <span>
+                            عن الكينج
+                        </span>
+
+                        <h2>
+                            مستر محمود العدوي
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        هدفنا إن الرياضيات تبقى أسهل وأوضح لكل طالب،
+                        من خلال الشرح، التدريب، والمتابعة المستمرة.
+                    </p>
+
+                </div>
+
+
+                <div class="about-points">
+
+                    <div class="about-point">
+
+                        <span>01</span>
+
+                        <div>
+
+                            <h3>
+                                فهم قبل الحفظ
+                            </h3>
+
+                            <p>
+                                نفهم القاعدة وطريقة استخدامها.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-point">
+
+                        <span>02</span>
+
+                        <div>
+
+                            <h3>
+                                حل أسئلة متنوعة
+                            </h3>
+
+                            <p>
+                                نتدرب على مستويات مختلفة من الأسئلة.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-point">
+
+                        <span>03</span>
+
+                        <div>
+
+                            <h3>
+                                متابعة مستمرة
+                            </h3>
+
+                            <p>
+                                خطوة بخطوة لحد ما توصل لأفضل مستوى.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section
+            class="contact-section"
+            id="contact"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        تواصل معنا
+                    </span>
+
+                    <h2>
+                        خليك قريب من الكينج 📲
+                    </h2>
+
+                    <p>
+                        تابع القناة أو تواصل مباشرة على واتساب.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="contact-card">
+
+                        <div
+                            class="qr-box"
+                            id="whatsappQR"
+                        ></div>
+
+                        <h3>
+                            واتساب
+                        </h3>
+
+                        <p>
+                            01124947410
+                        </p>
+
+                        <a
+                            href="https://wa.me/201124947410"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-button whatsapp"
+                        >
+                            💬 تواصل على واتساب
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div
+                            class="qr-box"
+                            id="youtubeQR"
+                        ></div>
+
+                        <h3>
+                            قناة اليوتيوب
+                        </h3>
+
+                        <p>
+                            مستر محمود العدوي
+                        </p>
+
+                        <a
+                            href="https://www.youtube.com/@mrmahmoudahmed-h8m"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-button youtube"
+                        >
+                            ▶ افتح قناة اليوتيوب
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- GRADE PAGE -->
+    <main
+        id="gradePage"
+        class="grade-page hidden"
+    >
+
+        <div class="container">
+
+            <button
+                class="back-button"
+                onclick="goHome()"
+            >
+                ← العودة للصفوف
+            </button>
+
+
+            <div class="grade-page-header">
+
+                <div
+                    class="grade-page-icon"
+                    id="gradeIcon"
+                >
+                    📚
+                </div>
+
+                <div>
+
+                    <span id="gradeLevel"></span>
+
+                    <h1 id="gradeTitle"></h1>
+
+                    <p id="gradeDescription"></p>
+
+                </div>
+
+            </div>
+
+
+            <div class="progress-box">
+
+                <div class="progress-text">
+
+                    <span>
+                        تقدمك في الدروس
+                    </span>
+
+                    <strong id="progressText">
+                        0%
+                    </strong>
+
+                </div>
+
+                <div class="progress-bar">
+
+                    <div
+                        id="progressFill"
+                        style="width:0%;"
+                    ></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="lesson-search">
+
+                <span>
+                    🔎
+                </span>
+
+                <input
+                    type="text"
+                    id="lessonSearch"
+                    placeholder="ابحث عن درس..."
+                    oninput="filterLessons()"
+                >
+
+            </div>
+
+
+            <div
+                class="subjects-tabs"
+                id="subjectsTabs"
+            ></div>
+
+
+            <div
+                class="lessons-grid"
+                id="lessonsGrid"
+            ></div>
+
+        </div>
+
+    </main>
+
+
+    <!-- FLOATING WHATSAPP -->
+    <a
+        href="https://wa.me/201124947410"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="floating-whatsapp"
+    >
+        💬
+        <span>
+            تواصل معنا
+        </span>
+    </a>
+
+
+    <!-- TOAST -->
+    <div
+        id="toast"
+        class="toast"
+    ></div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-logo">
+                👑 الكينج
+            </div>
+
+            <p>
+                مستر محمود العدوي — الرياضيات ببساطة
+            </p>
+
+            <div class="footer-location">
+                📍 سنتر جراند
+            </div>
+
+            <div class="footer-copy">
+
+                ©
+                <span id="year"></span>
+                جميع الحقوق محفوظة
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
